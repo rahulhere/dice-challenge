@@ -1,4 +1,4 @@
-html {
+html, body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -52,6 +52,7 @@ transition: all 1s;
 border: 2px solid white;
 border-radius: 20px;
 padding: 0 calc(3px + 0.1vw);
+box-sizing: border-box;
 }
 
 .animate {
@@ -80,10 +81,21 @@ padding: 0 calc(3px + 0.1vw);
 }
 
 .footer {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .footer p {
   color: white;
   text-shadow: 0 0 4px black;
+  text-align: center;
+}
+
+.footer-icons-div {
+  margin: 1rem 0;
+}
+
+.footer-icons-div a {
+  color: #DD080F;
+  font-size: 1rem;
+  margin: 0.65rem;
 }
